@@ -15,7 +15,6 @@ var reverseVowels = function(s) {
                 if(arr[r]!= 'a' && arr[r]!= 'e' && arr[r]!= 'i' && arr[r]!= 'o' && arr[r]!= 'u' && arr[r]!= 'A' && arr[r]!= 'E' && arr[r]!= 'I' && arr[r]!= 'O' && arr[r]!= 'U'){
                     r--;
                 }else{
-                    console.log(l,r)
                     let temp = arr[l];
                     arr[l] = arr[r];
                     arr[r] = temp;
